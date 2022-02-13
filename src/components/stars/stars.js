@@ -11,7 +11,9 @@ const Stars = () => {
 
     return (
         <div>
-            {[...Array(10)].map((star, i) => {
+            {[...Array(10)].map((star, i) =>
+            {
+                // key = Math.floor(Math.random() * 1000);
                 const ratingValue = i + 1;
 
 

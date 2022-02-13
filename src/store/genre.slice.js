@@ -82,7 +82,6 @@ const genreSlice = createSlice({
         [getGenres.fulfilled]: (state, action) => {
             state.status = 'resolved'
             state.genres = action.payload.genres
-            console.log(action.payload.genres)
         },
         [getGenres.rejected]: (state, action) => {
             state.status = 'rejected'

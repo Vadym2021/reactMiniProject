@@ -1,0 +1,15 @@
+.singlemovie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    row-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.img {
+    display: flex;
+    width: 95%;
+}
+

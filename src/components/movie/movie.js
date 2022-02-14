@@ -12,7 +12,7 @@ const Movie = ({movie: {id, backdrop_path, title, popularity, vote_average, genr
     const localgenres = [];
     for (let i = 0; i < genre_ids.length; i++) {
         localgenres.push({
-            id: Math.floor(Math.random() * 1000),
+            id: Math.floor(Math.random() * 100000),
             name: genre_ids[i]
         })
     }

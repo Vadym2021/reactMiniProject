@@ -61,7 +61,6 @@ const genreSlice = createSlice({
 
             for (let element of state.localfilter) {
                 for (let index in element) {
-                    console.log(typeof (element[index]))
                     state.localfiltertwo.push(element[index])
                 }
             }

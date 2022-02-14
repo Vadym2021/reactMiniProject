@@ -14,12 +14,6 @@ const Singlemovie = () => {
 
     const {id} = useParams();
 
-    console.log(id)
-    console.log(movie)
-    console.log(imgs)
-    console.log(movie.genres)
-    console.log(smgenres)
-
     const dispatch = useDispatch();
 
     useEffect(() => {
